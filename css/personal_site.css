@@ -1,0 +1,116 @@
+html {
+   height: 100%;
+}
+body {
+   min-height: 100%;
+}
+header {
+    background: #4a79bf;
+    min-height: 730px;
+    text-align: center;
+}
+.into-pane{
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top:250px;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.onemorething{
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.46, #040421),
+	color-stop(1, #858585)
+);
+background-image: -o-linear-gradient(bottom, #040421 46%, #858585 100%);
+background-image: -moz-linear-gradient(bottom, #040421 46%, #858585 100%);
+background-image: -webkit-linear-gradient(bottom, #040421 46%, #858585 100%);
+background-image: -ms-linear-gradient(bottom, #040421 46%, #858585 100%);
+background-image: linear-gradient(to bottom, #040421 46%, #858585 100%);
+
+color:#fff;
+}
+
+.featured_section {
+  text-align: center;
+  background: #fff;
+
+}
+
+.work_experience {
+  text-align: center;
+  background: #fff;
+
+}
+
+.aboutSection {
+  padding-top: 80px;
+  color: #fff; }
+  .aboutSection .logo {
+    text-align: center; }
+    .aboutSection .logo .image {
+      width: 100%;
+      text-align: center; }
+    .aboutSection .logo img {
+      position: relative;
+      display: inline-block;
+      width: 80%;
+      max-width: 265px;
+      margin-top: auto; }
+    .aboutSection .logo .text p {
+      position: relative;
+      margin: auto;
+      text-transform: uppercase; }
+    .aboutSection .logo h1 {
+      font-weight: 100;
+      text-align: center; }
+  .aboutSection .mainLinks {
+    text-align: center; }
+  .aboutSection a.applyButton {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 0px;
+    color: #fff;
+    margin: auto;
+    margin-top: 40px;
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -ie-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    overflow: hidden; }
+  .aboutSection a.applyButton:after {
+    content: 'Â»';
+    position: absolute;
+    display: inline-block;
+    margin-left: 60px;
+    opacity: 0;
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -ie-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all; }
+  .aboutSection a.applyButton:hover {
+    background: rgba(231, 231, 231, 0.5);
+    padding-right: 15px; }
+  .aboutSection a.applyButton:active {
+    padding-right: 10px;
+    padding-left: 5px; }
+  .aboutSection a.applyButton:hover:after {
+    margin-left: 40px;
+    opacity: 1; }
