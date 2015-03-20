@@ -15,7 +15,30 @@ header {
     right:0;
     margin-left:auto;
     margin-right:auto;
-    top:250px;
+    top:170px;
+}
+
+.myButton {
+    background-color:transparent;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:21px;
+    padding:11px 36px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:transparent;
+    color:#ffffff;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
 }
 h1 {
     text-align: center;
@@ -25,14 +48,27 @@ h2 {
     text-align: center;
     font-size: 40px;
 }
+@font-face {
+    font-family: "helveticaNeu";
+    src: url("http://jbwebsitebuilder.com/HelveticaNeue-UltraLightItal.otf");
+}
 h3 {
     text-align: center;
     font-style: italic;
+    font-size: 40px;
 }
+h4 { 
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400; 
+  text-align: center;
+  font-size: 40px;
+
+}
+
 .Motto_section {
   text-align: center;
-  background: #bf4a4a;
-
+  background: #2eb667;
+  min-height: 200px;
 }
 
 .onemorething{
@@ -54,7 +90,7 @@ color:#fff;
 
 .featured_section {
   text-align: center;
-  background: #fff;
+  background: #f9f9f9;
 
 }
 
