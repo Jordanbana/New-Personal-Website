@@ -49,9 +49,20 @@ h2 {
     font-size: 40px;
 }
 @font-face {
-    font-family: "helveticaNeu";
-    src: url("http://jbwebsitebuilder.com/HelveticaNeue-UltraLightItal.otf");
+  font-family: 'myfont';
+  src: url('css/HelveticaNeue-UltraLight.otf');
+  font-family: 'myfont1';
+  src: url('css/HelveticaNeue-Light.otf');
 }
+
+
+h5 { 
+    font-family: 'myfont', HelveticaNeue-UltraLight;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {font-family: 'myfont1', HelveticaNeue-Light; }
 h3 {
     text-align: center;
     font-style: italic;
@@ -64,11 +75,35 @@ h4 {
   font-size: 40px;
 
 }
+.card{
+  display: inline-block;
+  margin: 30px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  -webkit-transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  background-color: #f7f7f7;
+}
+.card:hover{
+  transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+}
+
 
 .Motto_section {
   text-align: center;
   background: #2eb667;
-  min-height: 200px;
+  min-height: 400px;
+  padding-top:120px;
+  padding-bottom:120px;
 }
 
 .onemorething{
